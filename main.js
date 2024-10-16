@@ -1,4 +1,4 @@
-const SumaDosValores = (a , b) => {
+/*const SumaDosValores = (a , b) => {
 return  a + b;
 }
 let c = SumaDosValores(4,9);
@@ -95,3 +95,22 @@ let libro = {
 }
 console.log(libro);
 libro.antiguedadLibro();
+
+let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+console.log("Los numeros originales: " + numeros);
+
+let numerosdoble = numeros.map((elemento)=>{
+  return elemento * 2;
+});
+console.log("estos son los numeros multiplicados por 2: " + numerosdoble);
+
+ let pares = [];
+
+ for(let i = 0; i <= 21; i++){
+ if(i % 2 === 0){
+  pares.push(i);
+ }
+ } 
+ console.log("los primeros 10 numeros pares son: " + pares);
+ */
