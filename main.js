@@ -69,3 +69,29 @@ function CelsiustoF(celcius){
   console.log(celcius + "℃ son equivalentes a " + fare + "℉");
 }
 CelsiustoF(30);
+
+let persona = {
+    nombre: "Bautista",
+    edad: 22 ,
+    ciudad: "mendoza",
+    cambiarCiudad: function(nuevaCiudad) {
+      this.ciudad = nuevaCiudad 
+    },
+}
+console.log(persona);
+persona.cambiarCiudad("Buenos Aires");
+console.log(persona);
+
+let libro = {
+  titulo: "ShadowHunters" ,
+  autor: "Cassandra Clare" ,
+  lanzamiento: 2015,
+
+  antiguedadLibro: function() {
+    if (this.lanzamiento < 2014){
+      console.log("este libro es antiguo");
+    }else{console.log("este libro es reciente")}
+  }
+}
+console.log(libro);
+libro.antiguedadLibro();
